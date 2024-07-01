@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-header {
+    background-color: #f1f1f1;
+    padding: 2px;
+    text-align: right;
+}
+
+.top-header .social-media a {
+    color: #555;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00bfa5;
+    color: white;
+    padding: 40px 20px;
+    background-image: url('reesimler/akilli-dijitallesme-akilli-donusum.jpg');
+    background-size: cover;
+    height: 200px;
+}
+
+header .logo {
+    position: absolute;
+    left: 20px;
+    width: 150px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.content-section img {
+    width: 450px;
+    height: 300px;
+    margin-left: 300px;
+}
+
+.content-section .text-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.content-section .text-container h3 {
+    color: #00bfa5;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.content-section .text-container p {
+    margin-bottom: 30px;
+}
+
+.header {
+    padding-bottom: 30px;
+}
+
+h2, p {
+    margin-top: 30px;
+    align-items: center;
+    text-align: left;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center; 
+}
+.image-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+    margin-right: 20px; 
+}
+.image-wrapper img { 
+    height: 300px;
+    width: 450px;
+}
+.circles-wrapper {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    gap: 10px; 
+    margin-left: 20px; 
+}
+.circle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.circle .circle-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #00bfa5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+
+}
+.circle .circle-icon1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #d518cf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+
+}
+
+.purple-rectangle {
+    background-color: #00bfa5;
+    color: white;
+    padding: 90px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-box {
+    width: 600px; 
+    height: 518px;
+    border: 2px solid white;
+    padding: 20px;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    line-height: 1.6;
+    display: flex;
+    justify-content: 100px;
+    align-items: center;
+}
+
+.p {
+    text-align: center;
+   
+}
+.site-footer {
+    background-color: #393939;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.footer-column {
+    width: 25%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.footer-heading {
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 5px;
+}
+
+.footer-column p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+    
